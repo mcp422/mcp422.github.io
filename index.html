@@ -182,6 +182,28 @@
                 </div>
             </div>
             <div class="row">
+                <div class="col-3">
+                    <h5>Test Wreath</h5>
+                </div>
+                <div class="col-9">
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <table>
+                        <tr><td><input type="hidden" name="on0" value="Quantity">Quantity</td></tr><tr><td><select name="os0">
+                            <option value="1">1 $0.01 USD</option>
+                            <option value="2">2 $0.02 USD</option>
+                            <option value="3">3 $0.03 USD</option>
+                        </select> </td></tr>
+                        <tr><td><input type="hidden" name="on1" value="Scout Name">Scout Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
+                        </table>
+                        <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                        
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-1">
                     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                         <input type="hidden" name="cmd" value="_s-xclick">

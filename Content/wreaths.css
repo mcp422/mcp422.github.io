@@ -5,3 +5,31 @@
   padding: 3rem 1.5rem;
   text-align: center;
 }
+th {
+  padding:10px;
+  border:1px #000000 solid;
+  text-align: center;
+}
+td {
+  padding:10px;
+  border:1px #000000 solid;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1500px;
+  }
+}

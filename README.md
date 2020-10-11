@@ -3,7 +3,7 @@ Site to sell wreaths for BSA fundraising
 
 Site is hosted on github pages - no hosting necessary
 
-https://corkupine.github.io/ScoutWreaths/ is the actual URL
+https://mcp422.github.io is the actual URL
 
 http://cantonbsawreaths.org/ redirects to github pages
 

@@ -1,7 +1,7 @@
 # ScoutWreaths
 Site to sell wreaths for BSA fundraising
 
-Site is hosted on github pages - no hosting necessary
+Site is hosted on github pages - no hosting necessary 
 
 https://mcp422.github.io is the actual URL
 

@@ -10,29 +10,20 @@ http://cantonbsawreaths.org/ redirects to github pages
 Managing The Site
 
 * To open site:
-    * Edit open.html as directed below
-    * Rename index.html to closed.html, and rename open.html to index.html 
+    * Edit index-open.html as directed below
+    * Rename index.html to index-closed.html, and rename index-open.html to index.html 
 * To close site: 
-    * Edit closed.html to reflect current year
-    * Rename index.html to open.html, and rename closed.html to index.html 
+    * Edit index-closed.html to reflect current year
+    * Rename index.html to index-open.html, and rename index-closed.html to index.html 
 
 The site automatically loads index.html when you visit
 
-You can edit everything in the UI here on github.com! 
+You can edit everything in the UI here on github.com, or you can use tools like Visual Studio Code. 
 
-Editing open.html for a new season:
+Editing index-open.html for a new season:
 * Update flyer.pdf to reflect current items/pricing
-* Edit open.html to reflect the upcoming sales season
-* Change year in heading
-* Add buttons where old ones were
-* Use https://www.paypal.com/buttons/ to generate Paypal "Add To Cart" buttons
-    * Create button
-        * Button type: Shopping Cart
-        * Item Name: wreath32 (or similar)
-        * Item ID: blank
-        * Price: 40 (or similar)
-        * Customize button: Add text field "Scout Name"
-        * Click "Create Button"
-        * There is a link to "create similar" so you don't have to retype everything
-    * Insert code into html
-    * Edit code to match format of last year's button code, including adding the Quantity code
+* Edit index-open.html to reflect the upcoming sales season
+* Change year in heading and any other locations as appropriate
+* Update buttons as appropriate.  This has been reworked so that we are using hosted buttons.  The pricing changes can be made in PayPal.
+
+* Once completed, save changes, commit and you are good to go.

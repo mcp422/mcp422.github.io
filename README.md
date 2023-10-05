@@ -25,5 +25,6 @@ Editing index-open.html for a new season:
 * Edit index-open.html to reflect the upcoming sales season
 * Change year in heading and any other locations as appropriate
 * Update buttons as appropriate.  This has been reworked so that we are using hosted buttons.  The pricing changes can be made in PayPal.
+* Link to update buttons - https://www.paypal.com/buttons 
 
 * Once completed, save changes, commit and you are good to go.
